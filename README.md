@@ -1,6 +1,6 @@
 # Network UPS Tools for Docker/Kubernetes
 
-This project bundles Network UPS Tools (aka NUT) into an Debian Trixie based docker image. The reason for this is to work around [an issue](https://github.com/networkupstools/nut/issues/2077) I have with Debian's stable builds of NUT where NUT was unable to correctly parse SNMP data from my CyberPower OR1500LCDRT2U UPS via the RMCARD205 management interface.
+This project bundles Network UPS Tools (aka NUT) into an Debian Sid based docker image. The reason for this is to work around [an issue](https://github.com/networkupstools/nut/issues/2077) I have with Debian's stable builds of NUT where NUT was unable to correctly parse SNMP data from my CyberPower OR1500LCDRT2U UPS via the RMCARD205 management interface.
 
 The image was designed to run in netserver mode and listens on 0.0.0.0 by default
 
